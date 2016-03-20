@@ -30,12 +30,40 @@ public class VarastoTest {
         assertEquals(10, varasto.getTilavuus(), vertailuTarkkuus);
     }
 
+    
+    @Test
+    public void paljonkoMahtuu(){
+        varasto = new Varasto(1000,400);
+        assertEquals(600, varasto.getTilavuus()-varasto.getSaldo(),vertailuTarkkuus);
+    }
+    
     @Test
     public void lisaysLisaaSaldoa() {
         varasto.lisaaVarastoon(8);
 
         // saldon pitäisi olla sama kun lisätty määrä
         assertEquals(8, varasto.getSaldo(), vertailuTarkkuus);
+    }
+    
+    @Test
+    public void lisaaVarastoonLiikaa(){
+        varasto.lisaaVarastoon(100.0);
+        double saatu = varasto.getSaldo();
+        assertEquals(10, saatu,vertailuTarkkuus);
+    }
+    
+    @Test
+    public void lisaaVarastoonNegatiivinenSaldo(){
+        varasto.lisaaVarastoon(-10.0);
+        double saatu = varasto.getSaldo();
+        assertEquals(0,saatu,vertailuTarkkuus);
+    }
+    
+    @Test
+    public void otaVarastostaEnemmanKuinOn(){
+        varasto.lisaaVarastoon(3.0);
+        double saatu = varasto.otaVarastosta(4.0);
+        assertEquals(3.0, saatu,vertailuTarkkuus);
     }
 
     @Test
@@ -46,6 +74,15 @@ public class VarastoTest {
         assertEquals(2, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
+    @Test
+    public void otaLiikaa(){
+        varasto.lisaaVarastoon(100);
+        double saatuMaara = varasto.otaVarastosta(1000);
+        assertEquals(100, saatuMaara,vertailuTarkkuus);
+    }
+    
+    
+    
     @Test
     public void ottaminenPalauttaaOikeanMaaran() {
         varasto.lisaaVarastoon(8);
