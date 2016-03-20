@@ -65,6 +65,13 @@ public class VarastoTest {
         double saatu = varasto.otaVarastosta(4.0);
         assertEquals(3.0, saatu,vertailuTarkkuus);
     }
+    
+    @Test
+    public void otaVarastostaNegatiivinenSaldo(){
+        varasto.lisaaVarastoon(4.0);
+        double saatu = varasto.otaVarastosta(-10.0);
+        assertEquals(0.0, saatu,vertailuTarkkuus);
+    }
 
     @Test
     public void lisaysLisaaPienentaaVapaataTilaa() {
