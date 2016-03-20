@@ -1,2 +1,5 @@
 tämän pitäisi mennä gittiin
 Ja päivitetään tätä
+Päivitetään nyt tiedostoa kloonatusta hakemistosta eli eri paikasta kuin
+äsken.
+/Users/username/ohtu_kloonitesti/ohtu-viikko1-klooni
