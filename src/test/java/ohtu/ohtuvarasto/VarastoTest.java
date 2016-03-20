@@ -85,7 +85,7 @@ public class VarastoTest {
     public void otaLiikaa(){
         varasto.lisaaVarastoon(100);
         double saatuMaara = varasto.otaVarastosta(1000);
-        assertEquals(100, saatuMaara,vertailuTarkkuus);
+        assertEquals(10, saatuMaara,vertailuTarkkuus);
     }
     
     
