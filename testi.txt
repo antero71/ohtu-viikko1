@@ -5,3 +5,8 @@ Päivitetään nyt tiedostoa kloonatusta hakemistosta eli eri paikasta kuin
 äsken.
 /Users/username/ohtu_kloonitesti/ohtu-viikko1-klooni
 Lisäys kloonihakemistosta. 
+Tämä on lisätty originaalista hakemistosta:
+
+../../ohtu2016/ohtu-viikko1/
+
+
