@@ -1,1 +1,2 @@
 language: java
+script: cd OhtuVarasto; mvn install; mvn test
