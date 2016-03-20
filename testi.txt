@@ -1,3 +1,7 @@
 tämän pitäisi mennä gittiin
 Ja päivitetään tätä
 uusi muutos, 20.3.2016 klo 15.33
+Päivitetään nyt tiedostoa kloonatusta hakemistosta eli eri paikasta kuin
+äsken.
+/Users/username/ohtu_kloonitesti/ohtu-viikko1-klooni
+Lisäys kloonihakemistosta. 
