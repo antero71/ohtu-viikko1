@@ -1,2 +1,5 @@
 Toinen tiedosto.
+<<<<<<< HEAD
 commit ja revert testi
+=======
+>>>>>>> parent of d7d950f... revert testiä varten
