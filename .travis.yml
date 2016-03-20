@@ -1,2 +1,4 @@
 language: java
 script: cd OhtuVarasto; mvn install; mvn test
+after_success:
+  - mvn clean cobertura:cobertura coveralls:report
