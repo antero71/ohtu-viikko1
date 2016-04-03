@@ -5,13 +5,24 @@ import ohtu.verkkokauppa.Kirjanpito;
 import ohtu.verkkokauppa.Pankki;
 import ohtu.verkkokauppa.Varasto;
 import ohtu.verkkokauppa.Viitegeneraattori;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Kirjanpito kirjanpito = new Kirjanpito();
-        Varasto varasto = new Varasto(kirjanpito);
+        ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
+
+    //Kauppa kauppa = ctx.getBean(Kauppa.class);
+        
+        
+        //Kirjanpito kirjanpito = new Kirjanpito();
+        Kirjanpito kirjanpito = ctx.getBean(Kirjanpito.class);
+        
+        Varasto varasto = ctx.getBean(Varasto.class);
+
+//new Varasto(kirjanpito);
         Pankki pankki = new Pankki(kirjanpito);
         Viitegeneraattori viitegen = new Viitegeneraattori();
 
