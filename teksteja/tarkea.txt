@@ -1,4 +1,6 @@
 Tämä tärkeä tiedosto lisättiin aluksi master-haaraan.
 Ja nyt lisätään samaan tiedostoon toka-haarassa tekstiä.
+Nyt mergen jälkeen jatketaan editointia master haarassa ja 
+katsotaan nyt saadaanko aikaan konflikti. Ja milloin.
 
 
