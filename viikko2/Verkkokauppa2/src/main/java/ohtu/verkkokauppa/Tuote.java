@@ -1,11 +1,16 @@
 
 package ohtu.verkkokauppa;
 
-public class Tuote {
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+public class Tuote implements TuoteInterface {
     private int id;
     private String nimi;
     private int hinta;
 
+  
     public Tuote(int id, String nimi, int hinta) {
         this.id = id;
         this.nimi = nimi;
@@ -19,10 +24,12 @@ public class Tuote {
         return id==t.id;
     }
 
+    @Override
     public int getId() {
         return id;
     }
 
+    @Override
     public int getHinta() {
         return hinta;
     }
