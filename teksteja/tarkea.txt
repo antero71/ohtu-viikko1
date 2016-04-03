@@ -8,3 +8,4 @@ Ja tulihan se mutta nyt
 on konflikti ratkaistu. :)
 
 Testataan git diff komentoa.
+Ja lisää.
