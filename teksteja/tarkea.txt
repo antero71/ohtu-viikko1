@@ -7,3 +7,4 @@ Toka-haaran editointi, nyt tulee saletisti konflikti.
 Ja tulihan se mutta nyt 
 on konflikti ratkaistu. :)
 
+Testataan git diff komentoa.
