@@ -1,0 +1,3 @@
+Viikko2, 6. lisää git:iä: branchit ja GitHub
+
+haara2 tiedosto.
