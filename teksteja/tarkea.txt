@@ -1,4 +1,5 @@
 Tämä tärkeä tiedosto lisättiin aluksi master-haaraan.
 Ja nyt lisätään samaan tiedostoon toka-haarassa tekstiä.
+Toka-haaran editointi, nyt tulee saletisti konflikti.
 
 
