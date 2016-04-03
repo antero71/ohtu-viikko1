@@ -1,2 +1,4 @@
 *.tmp
 target/*
+/viikko2/Ohtu-NhlStatistics1/target/
+/viikko2/RiippuvuuksienInjektointi1/target/
