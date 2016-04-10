@@ -49,8 +49,8 @@ public class AuthenticationServiceTest {
 
         assertFalse(service.createUser("pekaksiko", "sal"));
     }
-    
-      @Test
+
+    @Test
     public void testCreateUserShortPasswordAndSpezialChar() {
 
         assertFalse(service.createUser("pekaksiko", "sal?"));
@@ -67,8 +67,8 @@ public class AuthenticationServiceTest {
 
         assertTrue(service.createUser("kalle", "salai1nen"));
     }
-    
-      @Test
+
+    @Test
     public void testCreateUserValidPasswordSpecialChar() {
 
         assertTrue(service.createUser("kalle", "salainen_"));
