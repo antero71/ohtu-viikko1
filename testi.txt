@@ -9,4 +9,6 @@ Tämä on lisätty originaalista hakemistosta:
 
 ../../ohtu2016/ohtu-viikko1/
 
+24.4.2016 modaus, testi2.txt poistamisen jälkeen
+
 
