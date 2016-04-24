@@ -7,7 +7,7 @@ import java.util.List;
 public class InMemoryUserDao implements UserDao {
 
     private List<User> users;
-
+    
     public InMemoryUserDao() {
         users = new ArrayList<User>();
         users.add(new User("pekka", "akkep"));
