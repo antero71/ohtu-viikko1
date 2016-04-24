@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/Main.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/Kauppa.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/KauppaInterface.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/Kirjanpito.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/KirjanpitoInterface.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/Ostoskori.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/OstoskoriInterface.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/Pankki.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/PankkiInterface.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/Tuote.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/TuoteInterface.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/Varasto.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/VarastoInterface.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/Viitegeneraattori.java">
+</file>
+<file name="/Users/anterooikkonen/ohtu2016/ohtu-viikko1/viikko2/Verkkokauppa2/src/main/java/ohtu/verkkokauppa/ViitegenInterface.java">
+</file>
+</checkstyle>
