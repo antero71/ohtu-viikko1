@@ -1,0 +1,2 @@
+Lisätään kloonattiin repoon tiedosto ja yritetään push:ta se
+masteriin jonne oli originaalirepista pushattu muutos.
